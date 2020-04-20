@@ -1,7 +1,19 @@
-
-
 {% extends 'base.html' %}
 
 {% block body %}
+
+<h1 class="welcome">Welcome to the Rec Services Exercise Tracker! Login Below. </h1>
+
+<h3 class="welcome">Don't have an account? <a href="/register"> Click here to register now!</a></h3>
+
+
+<form>
+<label style="font-family: Calibri, sans-serif;" for="email">Email: </label><br>
+<input class="loginform" type="text" id="email" name="email"><br>
+<label style="font-family: Calibri, sans-serif;" for="password">Password: </label><br>
+<input class="loginform" type="password" id="password" name="password"><br>
+<input class="submitbutton" type="submit">
+</form>
+
 
 {% endblock %}
