@@ -3,11 +3,15 @@
 
   <head>
     <meta charset="utf-8">
-    <title>{{ pageTitle }}</title>
+    <title>Rec Services Exercise Tracker</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
-</head>
-
+</head> 
+<div class="headclass">
+  <h1 class="title">Rec Services Exercise Tracker</h1>
+  <a class = "headernav" href="/account">Account</a>
+  <a class = "headernav" href="/login">Login/out</a> 
   <body>
+</div>
 
       {% block body %}
 

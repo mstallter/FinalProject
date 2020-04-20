@@ -1,3 +1,26 @@
 body {
-  background-color: lightblue;
+  background-color: white;
+}
+
+.headclass{
+  background: black;
+  width: 100;
+  height: 150px;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  color: #FFCD00;
+  font-size: 48;
+  float:left;
+}
+
+.headernav{
+  color: white;
+  font-family:'Oswald', sans-serif;
+  font-size: 24;
+  float: right;
+  position: relative;
+  top: 125px;
+  justify-content: space-between;
 }
