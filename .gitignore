@@ -1,3 +1,9 @@
+#database usernames and passwords
+secrets.py
+
+#sqlite database
+database.db
+
 #Virtual Environment
 venv/
 
